@@ -11,3 +11,9 @@ Go over to releases and install the source code(still getting the hang of the wh
 - Activate the enviornment
 - install the requirements.txt by 'pip install -r requirements.txt'(coming in next commit)
 - Submit a pull request
+
+## TODO
+- Make it Mac/Linux compatible
+- Use GUI instead of CLI
+- Add animated download bars
+- Use my own package for downloading instead of [pytube](https://github.com/pytube/pytube)
