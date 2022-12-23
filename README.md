@@ -4,7 +4,7 @@
 This is my first full python script I(Sky) am bound to mess up somewhere or do practices that are bad so if you're better at python go ahead to contribute(look below for information)
 
 ## Installing(Windows Only)
-Go over to releases and install the zip
+Go over to releases and install the zip file
 
 ## Contributing
 - Download a copy of the main branch
