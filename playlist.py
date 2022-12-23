@@ -7,7 +7,6 @@ def download_playlist(link):
     youtubeObject = Playlist(link)
     try:
             print("Downloading Playlist: "+youtubeObject.title)
-            #os.mkdir("./"+youtubeObject.title)
             for video in youtubeObject.videos:
                 
                 print("Downloading: "+video.title+" by "+video.author)
@@ -18,7 +17,7 @@ def download_playlist(link):
         os.system("color 04")
         print("Error occured while downloading")
         print(e)
-        exit()
+        input("Press Enter to Quit")
     os.system("cls")
     print("\nDowloaded\n")
     input("Press Enter To Quit")

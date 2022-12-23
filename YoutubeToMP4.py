@@ -2,7 +2,12 @@ import playlist
 import video
 import YTaudio
 import os
+from platform import uname
 
+if uname == "Windows":
+    os.system("cls")
+else:
+    os.system("clear")
 os.system("color 02")
 def promt(type):
     if type == "1":
@@ -10,20 +15,20 @@ def promt(type):
     elif type == "2":
         playlist.download_playlist(input("Link: "))
     elif type == "3": 
-        YTaudio.convert(input("Filename: "))
+        YTaudio.mp3(input("Link: "))
     else:
         print('')
 type = input("""
-    YoutubeToMP4
+    Youtubedownloader
 
-Version: 1.0.0
+Version: 1.1.0
 ____________________
 
 1 - Video
 
 2 - Playlist
 
-3 - Convert To Audio: REQUIRES VIDEO IN Videos FOLDER
+3 - Video(Audio Only)
 
 Anything Else - Quit
 

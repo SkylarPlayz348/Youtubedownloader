@@ -14,7 +14,7 @@ def download_video(link):
         os.system("color 04")
         print("Error occured while downloading")
         print(e)
-        exit()
+        input("Press Enter to Quit")
     os.system("cls")
     print("\nDowloaded\n")
     input("Press Enter To Quit")
