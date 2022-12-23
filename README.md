@@ -18,3 +18,4 @@ Go over to releases and install the zip
 - Use GUI instead of CLI
 - Add animated download bars
 - Use my own package for downloading instead of [pytube](https://github.com/pytube/pytube)
+- Remove the temp files once folder is being used in Audio, Videos, and Playlists
