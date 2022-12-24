@@ -12,7 +12,7 @@ Follow the steps in the Contributing section
 ## Contributing
 ---
 ### Reguirements
--Python v3.10.8+(Coded with Python v3.11.1)
+- Python v3.10.8+(Coded with Python v3.11.1)
 ---
 - Download a copy of the main branch
 - Create a virtual enviornment(python -m venv) called 'downloader' as its in the .gitignore file
