@@ -10,7 +10,7 @@ This is my first full python script I(Sky) am bound to mess up somewhere or do p
 Do not remove the exe from the folder unless you want it to create the Videos/Playlists/Audio folders in another folder
 
 ## Installing(MacOS/Linux)
-Follow the steps in the Contributing section
+Follow the steps in the Contributing section without doing the last step
 
 ## Contributing
 ---
