@@ -9,7 +9,7 @@ def convert(file):
         os.system("cls")
     else:
         os.system("clear")
-    if not os.path.exists():
+    if not os.path.exists("./Audio"):
         os.mkdir("./Audio")
     print("Converting to mp3\n")
     mp4_file = r"./Temp/"+file+".mp4"
@@ -18,8 +18,17 @@ def convert(file):
     videoclip = VideoFileClip(mp4_file)
 
     audioclip = videoclip.audio
-    audioclip.write_audiofile(mp3_file)
-
+    try:
+        audioclip.write_audiofile(mp3_file)
+    except Exception as e:
+        if platform.system() == "Windows":
+            os.system("cls")
+        else:
+            os.system("clear")
+        os.system("color 04")
+        print("Error occured while Converting")
+        print(e)
+        input("Press Enter to Quit")
     audioclip.close()
     videoclip.close()
     shutil.rmtree("./Temp")
