@@ -20,7 +20,7 @@ Follow the steps in the Contributing section without doing the last step
 - Download a copy of the main branch
 - Create a virtual enviornment(python -m venv) called 'downloader' as its in the .gitignore file
 - Activate the enviornment
-- install the requirements.txt by 'pip install -r requirements.txt'(coming in next commit)
+- install the requirements.txt by 'pip install -r requirements.txt'
 - Submit a pull request
 
 ## TODO
