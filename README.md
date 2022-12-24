@@ -14,7 +14,6 @@ Go over to releases and install the zip file
 - Submit a pull request
 
 ## TODO
-- Make it Mac/Linux compatible
 - Use GUI instead of CLI
 - Add animated download bars
 - Use my own package for downloading instead of [pytube](https://github.com/pytube/pytube)

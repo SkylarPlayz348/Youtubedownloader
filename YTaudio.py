@@ -30,11 +30,11 @@ def mp3(link):
     youtubeObject = youtubeObject.streams.get_highest_resolution()
     try:
             print("Downloading: "+youtubeObject.title+" by "+author)
-            youtubeObject.download(output_path="./Temp")
+            youtubeObject.download(output_path="./Temp", filename=youtubeObject.title+" by "+author+".mp4")
     except Exception as e:
         os.system("cls")
         os.system("color 04")
         print("Error occured while downloading")
         print(e)
         input("Press Enter to Quit")
-    convert(youtubeObject.title)
+    convert(youtubeObject.title+" by "+author)

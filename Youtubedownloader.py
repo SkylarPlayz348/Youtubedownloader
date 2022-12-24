@@ -2,9 +2,9 @@ import playlist
 import video
 import YTaudio
 import os
-from platform import uname
+import platform
 
-if uname == "Windows":
+if platform.system() == "Windows":
     os.system("cls")
 else:
     os.system("clear")
@@ -21,7 +21,7 @@ def promt(type):
 type = input("""
     Youtubedownloader
 
-Version: 1.1.0
+Version: 1.2.0
 ____________________
 
 1 - Video
