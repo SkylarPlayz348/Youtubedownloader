@@ -5,7 +5,12 @@ import shutil
 import platform
 
 def convert(file):
-    os.system("cls")
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
+    if not os.path.exists():
+        os.mkdir("./Audio")
     print("Converting to mp3\n")
     mp4_file = r"./Temp/"+file+".mp4"
     mp3_file = r"./Audio/"+file+".mp3"
@@ -23,7 +28,10 @@ def convert(file):
 
 
 def mp3(link):
-    os.system("cls")
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
     
     youtubeObject = YouTube(link)
     author = youtubeObject.author
@@ -32,7 +40,10 @@ def mp3(link):
             print("Downloading: "+youtubeObject.title+" by "+author)
             youtubeObject.download(output_path="./Temp", filename=youtubeObject.title+" by "+author+".mp4")
     except Exception as e:
-        os.system("cls")
+        if platform.system() == "Windows":
+            os.system("cls")
+        else:
+            os.system("clear")
         os.system("color 04")
         print("Error occured while downloading")
         print(e)

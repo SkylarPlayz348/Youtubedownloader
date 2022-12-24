@@ -1,5 +1,11 @@
 from pytube import YouTube
 import os
+import platform
+
+if platform.system() == "Windows":
+    os.system("cls")
+else:
+    os.system("clear")
 
 os.system("color 02")
 def download_video(link):
