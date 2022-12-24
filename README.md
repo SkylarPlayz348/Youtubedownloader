@@ -24,6 +24,8 @@ Follow the steps in the Contributing section without doing the last step
 - Submit a pull request
 
 ## TODO
+- Allow to download more than one video/playlist at a time
+- Playlist audio only downloading
 - Use GUI instead of CLI
 - Add animated download bars
 - Use my own package for downloading instead of [pytube](https://github.com/pytube/pytube)
