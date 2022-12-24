@@ -4,11 +4,18 @@
 This is my first full python script I(Sky) am bound to mess up somewhere or do practices that are bad so if you're better at python go ahead to contribute(look below for information)
 
 ## Installing(Windows Only)
-Go over to releases and install the zip file
+Go over to releases and install the exe file
+
+## Installing(MacOS/Linux)
+Follow the steps in the Contributing section
 
 ## Contributing
+---
+### Reguirements
+-Python v3.10.8+(Coded with Python v3.11.1)
+---
 - Download a copy of the main branch
-- Create a virtual enviornment called 'downloader' as its in the .gitignore file
+- Create a virtual enviornment(python -m venv) called 'downloader' as its in the .gitignore file
 - Activate the enviornment
 - install the requirements.txt by 'pip install -r requirements.txt'(coming in next commit)
 - Submit a pull request
