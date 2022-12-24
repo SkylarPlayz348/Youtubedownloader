@@ -4,7 +4,10 @@
 This is my first full python script I(Sky) am bound to mess up somewhere or do practices that are bad so if you're better at python go ahead to contribute(look below for information)
 
 ## Installing(Windows Only)
-Go over to releases and install the exe file
+- Go over to releases and install the zip file
+
+### NOTE
+Do not remove the exe from the folder unless you want it to create the Videos/Playlists/Audio folders in another folder
 
 ## Installing(MacOS/Linux)
 Follow the steps in the Contributing section
