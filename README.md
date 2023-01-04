@@ -16,6 +16,9 @@ Follow the steps in the Contributing section without doing the last step
 ---
 ### Reguirements
 - Python v3.10.8+(Coded with Python v3.11.1)
+
+### Note
+- If your running this on MacOS or Linux all times I write python do python3
 ---
 - Download a copy of the main branch
 - Create a virtual enviornment(python -m venv) called 'downloader' as its in the .gitignore file
