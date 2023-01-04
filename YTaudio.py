@@ -25,7 +25,6 @@ def convert(file):
             os.system("cls")
         else:
             os.system("clear")
-        os.system("color 04")
         print("Error occured while Converting")
         print(e)
         input("Press Enter to Quit")
@@ -53,7 +52,6 @@ def mp3(link):
             os.system("cls")
         else:
             os.system("clear")
-        os.system("color 04")
         print("Error occured while downloading")
         print(e)
         input("Press Enter to Quit")
