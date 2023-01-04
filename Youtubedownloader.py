@@ -8,7 +8,6 @@ if platform.system() == "Windows":
     os.system("cls")
 else:
     os.system("clear")
-os.system("color 02")
 def promt(type):
     if type == "1":
         video.download_video(input("Link: "))
