@@ -7,7 +7,6 @@ if platform.system() == "Windows":
     os.system("cls")
 else:
     os.system("clear")
-os.system("color 02")
 def download_playlist(link):
     youtubeObject = Playlist(link)
     try:
@@ -22,7 +21,6 @@ def download_playlist(link):
             os.system("cls")
         else:
             os.system("clear")
-        os.system("color 04")
         print("Error occured while downloading")
         print(e)
         input("Press Enter to Quit")
