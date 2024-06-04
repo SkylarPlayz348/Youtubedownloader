@@ -6,6 +6,9 @@ This is my first full python script I(Sky) am bound to mess up somewhere or do p
 ### (UPDATE): 
 I am no longer actively working on this project so if you want to pick it up go ahead but please credit me if you do.
 
+### (Update II)
+Looks like pytube isn't maintained anymore so it wont work
+
 ## Installing(Windows Only)
 - Go over to releases and install the zip file
 
